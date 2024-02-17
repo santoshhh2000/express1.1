@@ -1,0 +1,5 @@
+Express.js: It's a popular Node.js web application framework for building web apps and APIs quickly.
+Middleware: Functions that handle requests, have access to request and response objects, and can pass control to the next middleware with next().
+next(): Callback to pass control to the next middleware in the stack.
+res.send(): Sends a response to the client. Sets appropriate Content-Type header based on data type.
+app.listen(3000): Starts a server listening on port 3000
